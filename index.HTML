@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bar Navigasi</title>
+
+  <!-- Google Fonts: Lora -->
+  <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Lora', serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(rgba(4, 4, 30, 0.5), rgba(32, 53, 136, 0.3)),
+        url('Taiwan101.jpeg') no-repeat center center fixed;
+      background-size: cover;
+      color: white;
+    }
+
+    header {
+      background-color: rgba(0, 0, 0, 0.85);
+      padding: 15px 0;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    header a {
+      color: rgb(200, 200, 200);
+      text-decoration: none;
+      margin: 0 20px;
+      font-size: 22px;
+      transition: color 0.3s ease;
+    }
+
+    header a:hover {
+      color: #ffffff;
+    }
+
+    h2 {
+      font-size: 36px;
+      text-align: center;
+      margin: 30px 0 20px;
+    }
+
+    .content {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 30px;
+      margin: 40px auto;
+      max-width: 1000px;
+      border-radius: 10px;
+      line-height: 1.8;
+    }
+
+    p {
+      font-size: 20px;
+      margin: 20px 0;
+    }
+
+    ul {
+      font-size: 20px;
+      padding-left: 20px;
+    }
+
+    .img-right {
+      max-width: 400px;
+      height: auto;
+      float: right;
+      margin: 0 0 20px 20px;
+      border-radius: 10px;
+    }
+
+    img {
+      border-radius: 10px;
+    }
+
+    @media (max-width: 768px) {
+      .img-right {
+        float: none;
+        display: block;
+        margin: 20px auto;
+        width: 100%;
+        max-width: 90%;
+      }
+
+      header a {
+        display: inline-block;
+        margin: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <a href="index.HTML">Home</a>
+    <a href="mandarin.html">Mandarin</a>
+    <a href="ppkn.html">PPKN</a>
+    <a href="bindo.html">BINDO</a>
+    <a href="agama.html">AGAMA</a>
+    <a href="ips.html">IPS</a>
+    <a href="english.html">ENGLISH</a>
+  </header>
+
+  <h2>Ini Adalah Halaman Utama</h2>
+
+  <div class="content">
+    <h2>Singkatan Edutrip Taiwan</h2>
+
+    <p>
+      <img src="Taipei101.jpeg" alt="Taipei 101" class="img-right">
+      On March 8–15, my school organized an edutrip to Taiwan or Jogja. I chose to go to Keelung, Taiwan.
+    </p>
+
+    <p>Destinations we visited in Taiwan:</p>
+    <ul>
+      <li>Taoyuan</li>
+      <li>Taipei</li>
+      <li>Taichung</li>
+      <li>Keelung</li>
+    </ul>
+
+    <p>
+      <img src="taiwan.jpeg" alt="Taiwan Landscape" class="img-right">
+      My group (Keelung) visited several amazing spots including Rainbow Village, Shifen Waterfall,
+      Jiufen Old Street, the National Palace Museum, and more.
+      My favorite was Jiufen Old Street because of the delicious food, souvenirs, and breathtaking views.
+      We stayed in 3 different hotels and were given assignments based on the subjects linked above.
+    </p>
+  </div>
+
+</body>
+</html>
